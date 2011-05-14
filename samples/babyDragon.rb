@@ -70,7 +70,7 @@ class Dragon
   def passageOfTime
     if @stuffInBelly > 0
       # move from belly to intestine
-      @stuffInBelly = @StuffInBelly - 1
+      @stuffInBelly = @stuffInBelly - 1
       @stuffInIntestine = @stuffInIntestine + 1
     else # Our Dragon is starving!
       if @asleep
